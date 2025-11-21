@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stethoscope Icon -->
+  <path d="M24 8C25.6569 8 27 6.65685 27 5C27 3.34315 25.6569 2 24 2C22.3431 2 21 3.34315 21 5C21 6.65685 22.3431 8 24 8Z" fill="#1a659e"/>
+
+  <!-- Earpiece tubes -->
+  <path d="M8 4C8 3.44772 8.44772 3 9 3H10C10.5523 3 11 3.44772 11 4V12C11 13.1046 10.1046 14 9 14C7.89543 14 7 13.1046 7 12V4H8Z" fill="#fcbf49"/>
+  <path d="M17 4C17 3.44772 17.4477 3 18 3H19C19.5523 3 20 3.44772 20 4V12C20 13.1046 19.1046 14 18 14C16.8954 14 16 13.1046 16 12V4H17Z" fill="#fcbf49"/>
+
+  <!-- Main tube -->
+  <path d="M9 14C9 14 9 14 9 14C9 18 10 20 13.5 22C17 24 17 26 17 28C17 29.1046 17.8954 30 19 30H21C22.1046 30 23 29.1046 23 28C23 24 23 22 24 19V8" stroke="#1a659e" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M9 14C7 14 5 16 5 18C5 20 7 22 9 22C11 22 13 20 13.5 18" stroke="#1a659e" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Chest piece (diaphragm) -->
+  <circle cx="20" cy="28" r="3" fill="#fcbf49" stroke="#1a659e" stroke-width="1.5"/>
+</svg>
