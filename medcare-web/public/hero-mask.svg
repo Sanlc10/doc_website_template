@@ -1,0 +1,11 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect id="pill" x="0" y="0" width="110" height="450" rx="55" fill="white" />
+  </defs>
+  <g transform="rotate(45 250 250)">
+    <!-- Three parallel pills -->
+    <use href="#pill" x="80" y="25" />
+    <use href="#pill" x="200" y="25" />
+    <use href="#pill" x="320" y="25" />
+  </g>
+</svg>

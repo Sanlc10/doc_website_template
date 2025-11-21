@@ -1,0 +1,155 @@
+{
+    "meta": {
+        "name": "MedCare Design System",
+        "description": "A clean, modern medical website design system focusing on trust, accessibility, and professional care.",
+        "source": "Visual analysis of MedCare template"
+    },
+    "theme": {
+        "colors": {
+            "primary": {
+                "main": "#fcbf49",
+                "hover": "#f59e0b",
+                "text": "#FFFFFF",
+                "description": "Used for primary call-to-action buttons (Get Started, See More) and key highlights. UPDATED: Now Amber/Orange #fcbf49."
+            },
+            "secondary": {
+                "main": "#1a659e",
+                "light": "#e0f2fe",
+                "description": "Used for decorative elements, accents, and secondary visual interest. UPDATED: Now Deep Blue #1a659e."
+            },
+            "neutral": {
+                "900": "#0b0f0f",
+                "800": "#1F2937",
+                "600": "#4B5563",
+                "500": "#6B7280",
+                "100": "#F3F4F6",
+                "50": "#F9FAFB",
+                "white": "#FFFFFF"
+            },
+            "background": {
+                "default": "#FFFFFF",
+                "alt": "#FDFCF6",
+                "footer": "#0b0f0f",
+                "description": "Main background is white. Footer is now dark #0b0f0f."
+            }
+        },
+        "typography": {
+            "fontFamily": {
+                "sans": [
+                    "Inter",
+                    "Plus Jakarta Sans",
+                    "Outfit",
+                    "sans-serif"
+                ],
+                "serif": [
+                    "Playfair Display",
+                    "Merriweather",
+                    "Times New Roman",
+                    "serif"
+                ],
+                "description": "Modern sans-serif for body/headings. Elegant Serif for the Logo."
+            },
+            "headings": {
+                "h1": {
+                    "size": "3.5rem",
+                    "weight": "700",
+                    "lineHeight": "1.2",
+                    "description": "Hero headline."
+                },
+                "h2": {
+                    "size": "2.25rem",
+                    "weight": "600",
+                    "lineHeight": "1.3",
+                    "description": "Section headers."
+                },
+                "h3": {
+                    "size": "1.25rem",
+                    "weight": "600",
+                    "description": "Card titles."
+                }
+            },
+            "body": {
+                "base": {
+                    "size": "1rem",
+                    "lineHeight": "1.6",
+                    "color": "neutral.600"
+                }
+            }
+        },
+        "borderRadius": {
+            "button": "9999px",
+            "card": "24px",
+            "image": "24px",
+            "pill": "9999px",
+            "description": "Heavy use of fully rounded (pill) shapes for buttons and decorative elements. Soft rounded corners for cards."
+        },
+        "shadows": {
+            "card": "0 10px 30px -5px rgba(0, 0, 0, 0.05)",
+            "button": "0 4px 6px -1px rgba(252, 191, 73, 0.2)",
+            "description": "Soft, diffuse shadows to create depth without harshness."
+        }
+    },
+    "layout": {
+        "container": {
+            "maxWidth": "1280px",
+            "padding": "2rem",
+            "center": true
+        },
+        "grid": {
+            "gap": "2rem",
+            "columns": 12
+        },
+        "spacing": {
+            "section": "6rem",
+            "element": "1.5rem"
+        }
+    },
+    "components": {
+        "buttons": {
+            "primary": {
+                "bg": "primary.main",
+                "text": "white",
+                "radius": "pill",
+                "padding": "12px 32px",
+                "fontWeight": "600"
+            },
+            "outline": {
+                "border": "1px solid neutral.200",
+                "text": "neutral.900",
+                "radius": "pill",
+                "padding": "10px 24px"
+            }
+        },
+        "cards": {
+            "service": {
+                "bg": "white",
+                "radius": "card",
+                "shadow": "card",
+                "padding": "2rem",
+                "elements": [
+                    "image",
+                    "title",
+                    "description",
+                    "arrow_icon"
+                ]
+            }
+        },
+        "hero": {
+            "layout": "2-column",
+            "left": "Content (Headline, Subtext, CTA, Stats)",
+            "right": "Image Collage (Doctors with pill-shaped masks)"
+        },
+        "stats": {
+            "layout": "row",
+            "style": "minimal",
+            "elements": [
+                "Number (Bold)",
+                "Label (Small)"
+            ]
+        }
+    },
+    "assets": {
+        "icons": "Use Phosphor Icons (React) for a premium, less common look.",
+        "images": "Professional medical imagery. Hero image must use the 'Diagonal Pill Mask' effect."
+    }
+}
